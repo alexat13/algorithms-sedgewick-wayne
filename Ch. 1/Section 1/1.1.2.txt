@@ -1,0 +1,4 @@
+a- Double 1.618
+b- Double 10.0
+c- Boolean true
+d- String 33

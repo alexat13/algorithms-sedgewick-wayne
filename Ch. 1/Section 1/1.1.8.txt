@@ -1,0 +1,4 @@
+a) b -> converts the char "b" to String and prints it
+b) 197 -> sums the char codes of 'b' and 'c', converts to String and prints it
+Ps: if written in double quotes, e.g. "b" + "c", java interprets it as a String and concatenates them. Thus,the result would be "bc"
+c) e -> sums the char code of "a" with 4, converts it to char and prints it

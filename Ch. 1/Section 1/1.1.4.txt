@@ -1,0 +1,4 @@
+a- wrong - no "then" in java
+b- wrong
+c- ok
+d- wrong - missing semicolon after the "then" clause
