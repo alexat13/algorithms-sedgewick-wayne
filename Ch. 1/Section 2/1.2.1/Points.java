@@ -14,7 +14,6 @@ class Points {
 
         double distance;
         double shortestDistance = Double.MAX_VALUE;
-        int c = 0;
 
         int count = 0;
 
