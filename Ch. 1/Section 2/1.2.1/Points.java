@@ -14,11 +14,10 @@ class Points {
 
         double distance;
         double shortestDistance = Double.MAX_VALUE;
-
-        int count = 0;
+        int control = 0;
 
         for (int i = 0; i < N; i++) {
-            for (int j = 1 + c; j < N; j++) {
+            for (int j = 1 + control; j < N; j++) {
 
                 distance = points[i].distanceTo(points[j]);
 
@@ -29,7 +28,7 @@ class Points {
                 }
 
             }
-            c++;
+            control++;
         }
 
         StdDraw.setPenColor(StdDraw.RED);
