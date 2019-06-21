@@ -46,9 +46,6 @@ class Points {
 
 
     public static void main(String[] args) {
-        //StdDraw.setCanvasSize(1024, 1024);
-
-
 
         StdDraw.setCanvasSize(500, 500);
         StdDraw.setPenRadius(.015);
