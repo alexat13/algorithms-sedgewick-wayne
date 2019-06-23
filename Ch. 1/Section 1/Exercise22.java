@@ -6,8 +6,6 @@ import java.util.Arrays;
 
 public class Exercise22{
 
-	static String depth = "";
-
 	public static int rank(int key, int[] a, String dep){
 
 		return rank(0, a.length-1, key, a, dep);
@@ -16,6 +14,9 @@ public class Exercise22{
 
 	public static int rank(int lo, int hi, int key, int[] a, String dep){
 
+		System.out.printf("%s Lo => %d | Hi => %d\n", dep, lo, hi);
+
+		dep += "-";
 
 		if (lo>hi) return -1;
 
@@ -42,13 +43,13 @@ public class Exercise22{
 
 			System.out.printf("Looking for the key %d\n",key);
 
-			String depth="";
+			String depth="-";
 
 			if (rank(key, whitelist, depth) < 0){
-				System.out.printf("NOT FOUND!\n");
+				System.out.printf("NOT FOUND!\n\n");
 
 			}else{
-				System.out.printf("FOUND!\n");
+				System.out.printf("FOUND!\n\n");
 				c++;
 			}
 
